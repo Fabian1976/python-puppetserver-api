@@ -1,0 +1,2 @@
+curl -k -H "Accept: s" https://puppetmaster01.core.cmc.lan:8140/puppetdev-fabian/certificate/puppetdev-fabian02.core.cmc.lan
+curl -k -X DELETE -H "Accept: s" https://puppetmaster01.core.cmc.lan:8140/puppetdev-fabian/certificate_status/puppetdev-fabian02.core.cmc.lan --key api-key.pem --cert api-cert.pem
